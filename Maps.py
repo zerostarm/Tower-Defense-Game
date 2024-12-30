@@ -53,4 +53,9 @@ class LoopyMap(map):
     for v in r:
         map_pixels.append((v.xcor(),v.ycor()))
     map.convert(map, map_pixels)'''
+class KidMap(map):
+    map_pixels = [(0,0),(547,632),(78,899),(1536,122),(764,399),(1043,527),(1550,750)]
+    base_position = (1550,750)
+    map.convert(map,map_pixels)
+    
     
